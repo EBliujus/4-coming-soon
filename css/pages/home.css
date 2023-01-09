@@ -1,4 +1,11 @@
-.container > .hero {
+.hero{
+    min-height: 100vh;
+    padding-bottom: 30px;
+    background-image: url(../../images/coming-main-photo.jpg);
+    background-position: center;
+}
+
+.short-row{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,12 +15,16 @@
 }
 
 .logo {
+    width: 100%;
     height: 30px;
+    object-fit: contain;
+    object-position: center;
 }
 
 .main-title {
     font-size: 60px;
     text-transform: uppercase;
+    letter-spacing: -10;
 
 }
 
