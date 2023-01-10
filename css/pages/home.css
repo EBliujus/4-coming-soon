@@ -13,7 +13,6 @@
     align-items: center;
     gap: 30px;
     text-align: center;
-
 }
 
 .logo {
@@ -27,14 +26,8 @@
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: -10;
-
 }
 
 .main-description {
-    font-size: 22px;
-    
-}
-.clock {
-    background-color: pink;
-    width: 80%;
+    font-size: 22px;   
 }
