@@ -1,0 +1,40 @@
+.hero{
+    min-height: 100vh;
+    padding-bottom: 30px;
+    background-image: url(../../images/coming-main-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.short-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+
+}
+
+.logo {
+    width: 100%;
+    height: 30px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.main-title {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: -10;
+
+}
+
+.main-description {
+    font-size: 22px;
+    
+}
+.clock {
+    background-color: pink;
+    width: 80%;
+}
