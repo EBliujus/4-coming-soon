@@ -3,6 +3,7 @@
     padding-bottom: 30px;
     background-image: url(../../images/coming-main-photo.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 .short-row{
