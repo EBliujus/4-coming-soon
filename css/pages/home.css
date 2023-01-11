@@ -31,3 +31,25 @@
 .main-description {
     font-size: 22px;   
 }
+footer.container {
+    padding-top: 0;
+}
+.socials {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+.socials > a {
+    width: 2em;
+    height: 2em;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.socials > a:hover {
+    background-color: #fff;
+    color: #03a9f3;
+
+}
+
+
