@@ -1,3 +1,14 @@
+/* base 
+    @import '../base/base.css';
+    @import '../base/layout.css';
+    3rd-party 
+    @import '../3rd-party/font-awesome.min.css';
+    components 
+    @import '../components/clock.css';
+    @import '../components/mouse.css'; 
+
+CUSTOM STYLE BELOW THIS COMMENT LINE */
+
 .hero{
     min-height: 100vh;
     padding-bottom: 30px;
