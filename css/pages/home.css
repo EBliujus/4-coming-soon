@@ -13,6 +13,8 @@
     flex-direction: column;
     gap: 30px;
     text-align: center;
+    align-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -34,7 +36,10 @@
 footer.container {
     padding-top: 0;
 }
-.row.socials {
+footer > .row {
+    position: relative;
+}
+.socials {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -57,5 +62,10 @@ footer.container {
     color: #03a9f3;
 
 }
+.back-to-top {
+    position: absolute;
+    top: 0;
+    right: 0;
 
+}
 
