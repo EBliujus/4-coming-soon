@@ -1,13 +1,32 @@
 .btn {
-    padding: 0.5em 0.7em;
+    padding: 0.5em 0.8em;
     text-decoration: none;
+    text-align: center;
     font-size: 20px;
     line-height: 1em;
     color: #fff;
     background-color: #ea1e63;
     border: none;
     border-radius: 0.2em;
+    cursor: pointer;
+    user-select: none;
 }
 .btn:hover {
     box-shadow: 0 4px 8px #0002;
 }
+.btn.btn-circle {
+    height: 2em;
+    width: 2em;
+    padding: 0;
+    line-height: 2em;
+    border-radius: 50%;
+
+}
+/* .btn.btn-green {
+    background-color: greenyellow;
+}
+.btn.btn-yellow {
+    background-color: yellowgreen;
+    color: #000;
+} */
+/* kieviena mygtuka atskirai galima daryti, tiesiog priskirti papildoma klase */
