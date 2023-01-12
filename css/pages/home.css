@@ -92,3 +92,29 @@ footer > .row {
     top: -1.1em;
     right: -0.6em;
 }
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.bottom > .logo {
+    margin-bottom: 40px;
+}
+.bottom > .trio {
+    display: flex;
+    gap: 0 20px; 
+}
+.bottom > .trio > p::before {
+
+}
+.bottom > .trio > p::after {
+
+}
+.bottom > .trio > p::after {
+
+}
+.bottom a {
+    color: #fff;
+}
