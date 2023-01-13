@@ -100,21 +100,33 @@ footer > .row {
     color: #fff;
 }
 .bottom > .logo {
-    margin-bottom: 40px;
+    margin: 20px;
 }
 .bottom > .trio {
     display: flex;
     gap: 0 20px; 
 }
-.bottom > .trio > p::before {
+.bottom > .trio > p {
+    position: relative;
+}
+.bottom > .trio > p + p::before {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 16px;
+    background-color: #000;
+    position: absolute;
+    top: 1px;
+    left: -11px;
 
 }
-.bottom > .trio > p::after {
-
+.bottom > .trio > p:last-child::after {
+    content: '';
+    /* .bottom > .trio > p + p::before {
+        content: ''
+     } */ 
 }
-.bottom > .trio > p::after {
 
-}
 .bottom a {
     color: #fff;
 }
