@@ -130,3 +130,14 @@ footer > .row {
 .bottom a {
     color: #fff;
 }
+@media (media-width: 640px) {
+    .main-title {
+        font-size: 60px;
+    }
+    .bottom > .trio{
+        flex-direction: column;
+    }
+    .bottom > .trio > p + p::before {
+        display: none;
+    }
+}
